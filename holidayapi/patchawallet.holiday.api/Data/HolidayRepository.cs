@@ -65,7 +65,7 @@ namespace patchawallet.holiday.api
         {
             using (var connection = _connectionFactory.CreateConnection())
             {
-                var query = $"SELECT TOP {pageSize} * FROM[dbo].[Holidays] WHERE Id NOT IN (SELECT TOP {pageSize * (pageIndex-1)} Id FROM[dbo].[Holidays]) AND Description LIKE '%{serach}%'";
+                var query = $"SELECT TOP {pageSize+1} * FROM[dbo].[Holidays] WHERE Id NOT IN (SELECT TOP {pageSize * (pageIndex)} Id FROM[dbo].[Holidays]) AND Description LIKE '%{serach}%'";
                 return await connection.QueryAsync<Holiday>(query);
             }
         }

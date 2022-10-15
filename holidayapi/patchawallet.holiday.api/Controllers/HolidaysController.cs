@@ -26,7 +26,7 @@ namespace patchawallet.holiday.api
         [ProducesResponseType(typeof(int), StatusCodes.Status500InternalServerError)]
         [ProducesResponseType(typeof(int), StatusCodes.Status400BadRequest)]
         [ProducesResponseType(typeof(int), StatusCodes.Status401Unauthorized)]
-        public async Task<IActionResult> Get(int pageIndex = 1, int pageSize = 10, string search = "")
+        public async Task<IActionResult> Get(int pageIndex = 0, int pageSize = 10, string search = "")
         {
             try
             {
