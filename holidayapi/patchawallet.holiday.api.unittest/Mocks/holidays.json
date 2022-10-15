@@ -1,0 +1,114 @@
+[
+  {
+    "id": 1,
+    "description": "Confraternização Universal (feriado nacional)",
+    "type": "nacional",
+    "date": "2021-01-01T00:00:00",
+    "created": "2021-04-01T13:43:03.8133333",
+    "updated": "2021-04-01T13:43:03.8133333"
+  },
+  {
+    "id": 2,
+    "description": "Carnaval (ponto facultativo)",
+    "type": "nacional",
+    "date": "2021-02-15T00:00:00",
+    "created": "2021-04-01T13:45:55.1833333",
+    "updated": "2021-04-01T13:45:55.1833333"
+  },
+  {
+    "id": 3,
+    "description": "Carnaval (ponto facultativo)",
+    "type": "nacional",
+    "date": "2021-02-16T00:00:00",
+    "created": "2021-04-01T14:06:22.6233333",
+    "updated": "2021-04-01T14:06:22.6233333"
+  },
+  {
+    "id": 4,
+    "description": "Paixão de Cristo (feriado nacional)",
+    "type": "nacional",
+    "date": "2021-04-02T00:00:00",
+    "created": "2021-04-01T14:07:36.1433333",
+    "updated": "2021-04-01T14:07:36.1433333"
+  },
+  {
+    "id": 5,
+    "description": "Tiradentes (feriado nacional)",
+    "type": "nacional",
+    "date": "2021-04-21T00:00:00",
+    "created": "2021-04-01T14:08:01.88",
+    "updated": "2021-04-01T14:08:01.88"
+  },
+  {
+    "id": 6,
+    "description": "Dia Mundial do Trabalho (feriado nacional)",
+    "type": "nacional",
+    "date": "2021-05-01T00:00:00",
+    "created": "2021-04-01T14:08:34.2633333",
+    "updated": "2021-04-01T14:08:34.2633333"
+  },
+  {
+    "id": 7,
+    "description": "Corpus Christi (ponto facultativo)",
+    "type": "nacional",
+    "date": "2021-06-03T00:00:00",
+    "created": "2021-04-01T14:09:43.1533333",
+    "updated": "2021-04-01T14:09:43.1533333"
+  },
+  {
+    "id": 8,
+    "description": "Independência do Brasil (feriado nacional)",
+    "type": "nacional",
+    "date": "2021-09-07T00:00:00",
+    "created": "2021-04-01T14:10:24.9433333",
+    "updated": "2021-04-01T14:10:24.9433333"
+  },
+  {
+    "id": 9,
+    "description": "Nossa Senhora Aparecida (feriado nacional)",
+    "type": "nacional",
+    "date": "2021-10-12T00:00:00",
+    "created": "2021-04-01T14:11:02.0966667",
+    "updated": "2021-04-01T14:11:02.0966667"
+  },
+  {
+    "id": 10,
+    "description": "Finados (feriado nacional)",
+    "type": "nacional",
+    "date": "2021-11-02T00:00:00",
+    "created": "2021-04-01T14:11:32.6",
+    "updated": "2021-04-01T14:11:32.6"
+  },
+  {
+    "id": 11,
+    "description": "Proclamação da República (feriado nacional)",
+    "type": "nacional",
+    "date": "2021-11-15T00:00:00",
+    "created": "2021-04-01T14:11:49.1766667",
+    "updated": "2021-04-01T14:11:49.1766667"
+  },
+  {
+    "id": 12,
+    "description": "Véspera de Natal (ponto facultativo após as 14 horas)",
+    "type": "nacional",
+    "date": "2021-12-24T00:00:00",
+    "created": "2021-04-01T14:12:32.61",
+    "updated": "2021-04-01T14:12:32.61"
+  },
+  {
+    "id": 13,
+    "description": "Natal (feriado nacional)",
+    "type": "nacional",
+    "date": "2021-12-25T00:00:00",
+    "created": "2021-04-01T14:12:50.5566667",
+    "updated": "2021-04-01T14:12:50.5566667"
+  },
+  {
+    "id": 14,
+    "description": "Véspera de ano-novo (ponto facultativo após às 14 horas)",
+    "type": "nacional",
+    "date": "2021-12-31T00:00:00",
+    "created": "2021-04-01T14:13:03.3966667",
+    "updated": "2021-04-01T14:13:03.3966667"
+  }
+]
