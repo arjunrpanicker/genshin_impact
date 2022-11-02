@@ -61,11 +61,11 @@ namespace patchawallet.holiday.api
             }
         }
 
-        public async Task<IEnumerable<Holiday>> GetAllAsync(int pageIndex, int pageSize, string serach)
+        public async Task<IEnumerable<Holiday>> GetAllAsync(int pageIndex, int pageSize, string search)
         {
             using (var connection = _connectionFactory.CreateConnection())
             {
-                var query = $"SELECT TOP {pageSize+1} * FROM[dbo].[Holidays] WHERE Id NOT IN (SELECT TOP {pageSize * (pageIndex)} Id FROM[dbo].[Holidays]) AND Description LIKE '%{serach}%'";
+                var query = $"SELECT TOP {pageSize+1} * FROM[dbo].[Holidays] WHERE Id NOT IN (SELECT TOP {pageSize * (pageIndex)} Id FROM[dbo].[Holidays]) AND Description LIKE '%{search}%'";
                 return await connection.QueryAsync<Holiday>(query);
             }
         }
@@ -74,7 +74,7 @@ namespace patchawallet.holiday.api
         {
             using (var connection = _connectionFactory.CreateConnection())
             {
-                var query = @"SELECT * FROM [dbo].[Holidays] WHERE Id = @id";
+                var query = @"SELECT * FROM [dbo].[Holidays] WHERE Id = @id and day = 'Saturday'";
                 return await connection.QueryFirstOrDefaultAsync<Holiday>(query, new { Id = id });
             }
         }

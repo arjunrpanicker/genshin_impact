@@ -2,4 +2,13 @@
 # This .gitignore file was automatically created by Microsoft(R) Visual Studio.
 ################################################################################
 
-/holidayapi
+/holidayapi/patchawallet.holiday.api/obj
+/holidayapi/patchawallet.holiday.api.unittest/obj/Debug/net5.0
+/holidayapi/patchawallet.holiday.api.unittest/obj/project.nuget.cache
+/holidayapi/patchawallet.holiday.api.unittest/obj/project.assets.json
+/holidayapi/patchawallet.holiday.api.unittest/obj/patchawallet.holiday.api.unittest.csproj.nuget.g.targets
+/holidayapi/patchawallet.holiday.api.unittest/obj/patchawallet.holiday.api.unittest.csproj.nuget.g.props
+/holidayapi/patchawallet.holiday.api.unittest/obj/patchawallet.holiday.api.unittest.csproj.nuget.dgspec.json
+/holidayapi/out.txt
+/holidayapi/.vs
+/holidayapi/patchawallet.holiday.api/Properties
