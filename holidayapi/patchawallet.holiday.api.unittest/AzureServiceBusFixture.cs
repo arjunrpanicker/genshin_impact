@@ -17,7 +17,7 @@ namespace patchawallet.holiday.api.unittest
         public void PublishHolidayAfterCreatedShould()
         {
             // Arrange
-            var @event = new HolidayCreatedIntegrationEvent(16, "Labor day", "nacional", DateTime.Parse("2021-05-01"), DateTime.Now, DateTime.Now);
+            var @event = new HolidayCreatedIntegrationEvent(16, "Labor day", "National", DateTime.Parse("2021-05-01"), DateTime.Now, DateTime.Now);
             var busMock = new Mock<IEventBus>();
             var busConnectionMock = new Mock<IServiceBusPersisterConnection>();
             var loggerMock = new Mock<ILogger<EventBusServiceBus>>();
