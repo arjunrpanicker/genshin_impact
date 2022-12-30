@@ -32,7 +32,6 @@ namespace patchawallet.holiday.api
         public IConfiguration Configuration { get; }
 
         public ILifetimeScope AutofacContainer { get; private set; }
-        //comment
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddOptions();
