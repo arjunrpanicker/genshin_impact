@@ -17,7 +17,7 @@ namespace patchawallet.holiday.api.unittest
         public void AddHolidayShould()
         {
             // Arrange
-            var holidays = LoadJson<List<Holiday>>("holidays");
+            var holidays = LoadJson<List<Holiday>>("holiday");
             var finados = holidays.FirstOrDefault(x => x.Id == 10);
             var connectionFactoryMock = new Mock<IDbConnectionFactory>();
             var db = new Mock<DbConnection>();
