@@ -25,7 +25,7 @@ namespace patchawallet.holiday.api
         [ProducesResponseType(typeof(int), StatusCodes.Status404NotFound)]
         [ProducesResponseType(typeof(int), StatusCodes.Status500InternalServerError)]
         [ProducesResponseType(typeof(int), StatusCodes.Status400BadRequest)]
-        [ProducesResponseType(typeof(int), StatusCodes.Status401Unauthorized)]
+        [ProducesResponseType(typeof(int), StatusCodes.Status401Unauthorized)] // Added a comment 
         public async Task<IActionResult> Get(int pageIndex = 0, int pageSize = 10, string search = "")
         {
             try
@@ -35,7 +35,7 @@ namespace patchawallet.holiday.api
             }
             catch (QueryHolidayException ex)
             {
-                return StatusCode(StatusCodes.Status500InternalServerError, ex.Message);
+                return StatusCode(StatusCodes.Status500InternalServerError, "It is wrong update it");
             }
         }
 
